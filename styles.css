@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
+/* głowne */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundColor);
+  font-family: "Caveat", cursive;
+  color: #a6a6a6;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Flexboxy */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-background {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: linear-gradient(#00000088, #00000088),
+    url("zdj/background.jpeg");
+  background-size: cover;
+}
+
+#header {
+  height: 15vh;
+  width: 100%;
+  justify-content: space-around;
+  color: #a6a6a6;
+}
+
+#header > a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+#landing-page {
+  height: 60vh;
+  color: #c5c5c5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#galleria {
+  height: 220vh;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #a0a0a03d;
+  color: black;
+  font-size: 40px;
+}
+
+#oferta {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #a0a0a03d;
+  width: 100%;
+  color: black;
+  font-size: 40px;
+  flex-direction: column;
+  height: 300vh;
+}
+
+#oferta > h2 {
+  width: 100%;
+}
+#oferta > .kontakt {
+  width: 100%;
+}
+
+#opinie {
+  background-color: #8888883b;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  color: black;
+  font-size: 40px;
+  flex-direction: column;
+  height: 300vh;
+}
+
+#opinie > h2 {
+  width: 100%;
+}
+
+#header img {
+  width: 10vw;
+  height: 20vh;
+}
+
+.offer-1 {
+  border-top: solid 5px black;
+}
+
+.offer-2 {
+  border-top: solid 5px black;
+}
+
+.offer-3 {
+  border-top: solid 5px black;
+}
+
+.offers {
+  flex-direction: column;
+  width: 80%;
+  height: 15%;
+  border-radius: 15px;
+  background: #e6e6e6;
+  box-shadow: 21px 21px 42px #bdbdbd, -21px -21px 42px #ffffff;
+}
+
+.offers > p {
+  margin: 0 15% 0 15%;
+}
+.kontakt {
+  height: 40vh;
+  width: 100%;
+  background-color: #313131;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #c5c5c5;
+}
+
+.opinions {
+  width: 80%;
+  height: 15%;
+  border-radius: 15px;
+  background: #e6e6e6;
+  box-shadow: 21px 21px 42px #a1a1a1, -21px -21px 42px #ececec;
+
+  flex-direction: column;
+}
+
+.opinions > p {
+  margin: 0 15% 0 15%;
+}
+.linki {
+  color: #0099ff;
+  text-decoration: none;
+  font-size: 40px;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+}
+.op1 {
+  border-top: solid 5px chocolate;
+}
+
+.op2 {
+  border-top: solid 5px chocolate;
+}
+
+.op3 {
+  border-top: solid 5px chocolate;
+}
+.k1 {
+  transform: translateY(-28vh);
+}
+#galleria img {
+  height: 500px;
+  width: 1000px;
+}
